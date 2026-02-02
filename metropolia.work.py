@@ -1,13 +1,4 @@
  # question 1 ask for a name and great the user.
-"""
-letters = input("enter your letters: ")
-if letters in ("a","e","i","o","u"):
- print("this is a vowel")
-elif letters ==('y'):
- print("this could be a vowel or consonant")
-else:
- print("this is a consonant")
-
 
 name = input("enter your name: ")
 print(f"hello, {name}!")
@@ -50,29 +41,6 @@ lots = int(input("enter your lots: "))
 
 # question 6 a program that draws two random combinations of numbers for a combination lock
 
-
-
-letters = input("enter your letters: ")
-if letters == ("a","e","i","o","u"):
- print("this is a vowel")
-elif letters ==('y'):
- print("this could be a vowel or consonant")
-else:
- print("this is not a vowel or consonant")
-
-"""
-
-import random
-number = random.randint(1,100)
-guess = 0
-while guess != number:
-    guess = int(input("enter your guess: "))
-    if guess > number:
-        print("your guess is too high")
-    elif guess < number:
-        print("your guess is too low")
-    else:
-        print("your guess is correct")
 
 
 
