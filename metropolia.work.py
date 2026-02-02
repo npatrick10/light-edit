@@ -1,5 +1,6 @@
  # question 1 ask for a name and great the user.
 
+
 name = input("enter your name: ")
 print(f"hello, {name}!")
 
@@ -40,6 +41,11 @@ lots = int(input("enter your lots: "))
 
 
 # question 6 a program that draws two random combinations of numbers for a combination lock
+
+
+
+
+
 
 
 
