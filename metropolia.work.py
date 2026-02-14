@@ -37,10 +37,28 @@ print(f"the average is: {average}")
 talent = int(input("enter your talent: "))
 pounds = int(input("enter your pounds: "))
 lots = int(input("enter your lots: "))
+kg = talent / pounds
+gram = pounds / lots * 100
+print(f"the gram is: {gram}")
+print(f"the kg is: {kg}")
 
 
 
 # question 6 a program that draws two random combinations of numbers for a combination lock
+import random
+code3 = ""
+for i in range(3):
+    code3 += str(random.randint(1 ,9))
+
+code4 = ""
+for i in range(4):
+    code4 += str(random.randint(1 ,6))
+print(f"the combination for code 3 is: {code3}")
+print(f"the combination for code 4 is: {code4}")
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 # 1 a program thats prints out numbers divible by 3 from 1-1000
 from ctypes import pythonapi
-
+""""
 num = 1
 while num <=1000:
     if num % 3 ==0:
@@ -26,7 +26,7 @@ while True:
     numbers.append(float(value))
 print("smallest" , min(numbers))
 print("largest", max(numbers))
-
+"""
 # 4 guessing game numbers
 
 import random
